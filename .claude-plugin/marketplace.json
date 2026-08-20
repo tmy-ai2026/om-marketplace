@@ -1,0 +1,17 @@
+{
+    "name": "om-marketplace",
+    "owner": {
+          "name": "Tomiaki Suzuki"
+    },
+    "plugins": [
+          {
+                  "name": "owned-media-team",
+                  "source": "./plugins/owned-media-team",
+                  "description": "オウンドメディアをAIチームで運用するロール別スキル集(進行・編集長/企画・リサーチ・ライター/編集・SEO/LLMO・メディア更新の6担当)",
+                  "version": "1.0.0",
+                  "author": {
+                            "name": "マーケティングツールの開発プロジェクト"
+                  }
+          }
+    ]
+}
