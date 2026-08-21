@@ -1,0 +1,53 @@
+{
+  "_note": "claude/owned-media/calendar.json としてプロジェクトに保存して使う。記事1本=1エントリ。これがチームの唯一の進行表。",
+  "_status_flow": "planned → research → draft → edit → llmo → approval → ready → published → measure → done",
+  "_reverse_edges": [
+    "draft → research(ブリーフの情報不足。ライターが戻す)",
+    "llmo → edit(LLMOチェック不合格)",
+    "approval → edit(編集長の差し戻し)"
+  ],
+  "_actor_map_note": "割り当ては owner_role が最優先。未設定のときだけ下の既定担当を使う。ready/done に進められるのは om-editor のみ。",
+  "_actor_map": {
+    "planned": "om-research",
+    "research": "om-research",
+    "draft": "om-writer",
+    "edit": "om-writer",
+    "llmo": "om-llmo",
+    "approval": "om-editor",
+    "ready": "om-distribute",
+    "published": "om-distribute",
+    "measure": "om-llmo",
+    "done": null
+  },
+  "updated": "2026-08-20",
+  "articles": [
+    {
+      "id": "sample-2026-08-w4-01",
+      "brand_id": "medinaturals",
+      "slug": "sample-slug",
+      "title": "(サンプル)記事タイトル仮",
+      "intent": "読者の検索意図を1文で",
+      "target_questions": [
+        "想定AI質問1",
+        "想定AI質問2",
+        "想定AI質問3"
+      ],
+      "status": "planned",
+      "owner_role": "om-research",
+      "priority": "mid",
+      "due": "2026-08-27",
+      "publish_date": "2026-08-28",
+      "measure_due": null,
+      "source": "起票根拠(backlog / aio-check / 顧客の声 / 競合の穴)",
+      "links": {
+        "brief": null,
+        "draft": null,
+        "social": null,
+        "published_url": null
+      },
+      "log": [
+        { "date": "2026-08-20", "role": "om-editor", "note": "サンプル起票。実運用時は削除してよい" }
+      ]
+    }
+  ]
+}

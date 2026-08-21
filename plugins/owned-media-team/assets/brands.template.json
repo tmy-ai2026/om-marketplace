@@ -1,0 +1,38 @@
+{
+  "_note": "claude/owned-media/brands.json としてプロジェクトに保存して使う。複数ブランド横断運用の中心台帳。",
+  "updated": "2026-08-20",
+  "brands": [
+    {
+      "id": "medinaturals",
+      "name": "メディナチュラルズ",
+      "site_url": "",
+      "category": "",
+      "target": "想定読者を1〜2文で。年代・悩み・知識レベル",
+      "tone": "です・ます調 / 専門的すぎない / 断定を避ける",
+      "ng_words": ["治る", "必ず効く", "No.1"],
+      "author": { "name": "", "title": "", "profile_url": "" },
+      "supervisor": { "name": "", "title": "", "profile_url": "" },
+      "competitors": [],
+      "channels": ["blog", "x", "instagram", "line", "mail"],
+      "weekly_target": 2,
+      "active": true,
+      "notes": "既にaio-check実績あり(claude/aio-results/メディナチュラルズ_2026-08-01.json)"
+    },
+    {
+      "id": "brand-b",
+      "name": "(2つ目のブランド名)",
+      "site_url": "",
+      "category": "",
+      "target": "",
+      "tone": "",
+      "ng_words": [],
+      "author": { "name": "", "title": "", "profile_url": "" },
+      "supervisor": { "name": "", "title": "", "profile_url": "" },
+      "competitors": [],
+      "channels": ["blog", "x"],
+      "weekly_target": 1,
+      "active": false,
+      "notes": ""
+    }
+  ]
+}
