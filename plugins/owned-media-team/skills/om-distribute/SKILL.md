@@ -7,7 +7,7 @@ description: オウンドメディア運用チームの各種メディア更新�
 
 承認済みの記事を、各媒体の作法に合わせて別物に書き直す役。**記事のコピペを配らない**。媒体ごとに読者の状態が違うので、フック・長さ・語り口を変える。
 
-共通規約はプロジェクトの `claude/owned-media/設計書.md` を参照。
+共通規約は正本リポジトリ `tmy-ai2026/owned-media-ops` の `claude/owned-media/設計書.md` を参照(`om_github_read` で読む)。
 
 ## 絶対原則
 
@@ -70,7 +70,7 @@ description: オウンドメディア運用チームの各種メディア更新�
 
 ### 4. 出力
 
-`claude/owned-media/social/<brand_id>_<slug>.md` に `project_write`:
+`claude/owned-media/social/<brand_id>_<slug>.md` に `om_github_put` で保存:
 
 ```markdown
 # 媒体展開: <記事タイトル>
