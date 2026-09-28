@@ -19,7 +19,7 @@ description: オウンドメディア運用チームの進行役(デスク)。�
 
 ### 1. 状態を読む
 
-`project_read` で次を読む(無ければ「初期化が必要」と報告して、ブランド台帳の記入をユーザーに依頼して終了):
+`om_github_read` で次を読む(台帳は select 付き)(無ければ「初期化が必要」と報告して、ブランド台帳の記入をユーザーに依頼して終了):
 
 - `claude/owned-media/brands.json`(アクティブブランド)
 - `claude/owned-media/calendar.json`(記事エントリ)
