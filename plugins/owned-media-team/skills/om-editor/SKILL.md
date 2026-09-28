@@ -37,7 +37,7 @@ description: オウンドメディア運用チームの編集長・企画担当�
    - WebSearchでカテゴリの検索意図・競合上位記事を確認(競合が答えていない論点を狙う)
 4. 各テーマについて次を決めてから起票する:
    - タイトル(仮) / 読者の検索意図 / **想定AI質問3つ以上**(「〜のおすすめは?」形式) / 優先度 / 締切 / 公開予定日 / 起票根拠1行
-5. `calendar.json` に `status: "planned"`, `owner_role: "om-research"` で追加し `project_write`
+5. `calendar.json` に `status: "planned"`, `owner_role: "om-research"` で追加する(`om_github_patch_json` で追記)
 6. 出力: 起票した記事の一覧表(ブランド・タイトル・想定質問・根拠・締切)。**Tomiakiさんが没にできるよう、テーマは必ず一覧で提示する**
 
 配分ルール: ブランドが複数あるとき、`weekly_target` に比例配分する。ただし直近4週で公開ゼロのブランドがあれば、そのブランドを1本以上必ず含める。
