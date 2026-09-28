@@ -36,7 +36,7 @@ description: オウンドメディア運用チームのリサーチ担当。編�
 
 ### 3. ブリーフを書く
 
-`claude/owned-media/briefs/<brand_id>_<slug>.md` に `project_write`:
+`claude/owned-media/briefs/<brand_id>_<slug>.md` に `om_github_put` で保存:
 
 ```markdown
 # リサーチブリーフ: <タイトル(仮)>

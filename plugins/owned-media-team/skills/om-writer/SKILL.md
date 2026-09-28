@@ -7,7 +7,7 @@ description: オウンドメディア運用チームのライター・編集担�
 
 ブリーフを記事にする役。**ブリーフに無い事実は書かない**。書きぶりは自由だが、構造はLLMO(AIに引用される形)に従う。
 
-共通規約はプロジェクトの `claude/owned-media/設計書.md` を参照。
+共通規約は正本リポジトリ `tmy-ai2026/owned-media-ops` の `claude/owned-media/設計書.md` を参照(`om_github_read` で読む)。
 
 ## 絶対原則
 
