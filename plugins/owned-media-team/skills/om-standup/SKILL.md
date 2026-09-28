@@ -53,7 +53,7 @@ description: オウンドメディア運用チームの進行役(デスク)。�
 
 ### 4. 当日ボードを書く
 
-`claude/owned-media/daily/<YYYY-MM-DD>.md` を `project_write` で作成(既にあれば追記・上書き更新)。書式:
+`claude/owned-media/daily/<YYYY-MM-DD>.md` を `om_github_put` で作成(既にあれば追記・上書き更新)。書式:
 
 ```markdown
 # 当日ボード 2026-08-20(木)

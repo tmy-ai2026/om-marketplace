@@ -7,7 +7,7 @@ description: オウンドメディア運用チームの編集長・企画担当�
 
 何を書くかを決め、出来上がりを承認する役。**このロールだけがカレンダーに記事を起票でき、statusを `ready` と `done` に進められる**。
 
-共通規約はプロジェクトの `claude/owned-media/設計書.md` を参照。
+共通規約は正本リポジトリ `tmy-ai2026/owned-media-ops` の `claude/owned-media/設計書.md` を参照(`om_github_read` で読む)。
 
 ## 絶対原則
 
