@@ -63,7 +63,7 @@ description: オウンドメディア運用チームのライター・編集担�
 - 一次情報(顧客の声・独自データ)を最低1箇所、引用として入れる
 - 読者の不安・デメリットに触れる段落を必ず1つ置く(正直さがE-E-A-Tと信頼につながる)
 
-出力先: `claude/owned-media/drafts/<brand_id>_<slug>.md`(`project_write`)
+出力先: `claude/owned-media/drafts/<brand_id>_<slug>.md`(`om_github_put` で保存)
 
 ---
 

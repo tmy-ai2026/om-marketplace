@@ -7,7 +7,7 @@ description: オウンドメディア運用チームのSEO/LLMO担当。記事�
 
 記事とサイトを「AIと検索に拾われる形」にする役。既存の **aio-check スキル**を計測の道具として使い、その指摘を改善バックログに変えてチームに戻す。
 
-共通規約はプロジェクトの `claude/owned-media/設計書.md` を参照。計測の定義・採点は **aio-check スキルの `references/scoring-rubric.md` が正**(このスキルで独自の採点式を作らない)。
+共通規約は正本リポジトリ `tmy-ai2026/owned-media-ops` の `claude/owned-media/設計書.md` を参照(`om_github_read` で読む)。計測の定義・採点は **aio-check スキルの `references/scoring-rubric.md` が正**(このスキルで独自の採点式を作らない)。
 
 ## 絶対原則
 
